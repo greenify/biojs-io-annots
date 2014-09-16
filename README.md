@@ -23,6 +23,7 @@ annots.read(<url to annot file>); // return JSON representation
 **Type**: `String`
 **Example**: (see `test/dummy.annot`)
 
+[Example result](https://github.com/greenify/biojs-io-annots/blob/master/test/dummy.json).
 
 #### .read(url)
 
