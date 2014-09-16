@@ -1,0 +1,192 @@
+{
+    "annot": [
+      {
+        "graphType": "BAR_GRAPH"
+      , "label": "Bar Graph 1"
+      , "desc": "<html>an <em>html tooltip</em> for Bar graph 1.</html>"
+      , "values": [
+          ""
+        , ""
+        , "-100,-"
+        , "-200,-"
+        , "-300,-"
+        , "-400,-"
+        , "200,+"
+        , "300,+"
+        , "150,+"
+      ]
+      , "seqid": "FER1_MESCR"
+      , "start": "5"
+    }
+    , {
+        "graphType": "LINE_GRAPH"
+      , "label": "Green Values"
+      , "values": [
+          "1.1"
+        , "2.2"
+        , "1.3"
+        , "3.4"
+        , "0.7"
+        , "1.4"
+        , "3.3"
+        , "2.2"
+        , "2.1"
+        , "-1.1"
+        , "3.2"
+      ]
+      , "seqid": "FER1_MESCR"
+      , "start": "5"
+    }
+    , {
+        "graphType": "LINE_GRAPH"
+      , "label": "Red Values"
+      , "values": [
+          "2.1"
+        , "3.2"
+        , "1.3"
+        , "-1.4"
+        , "5.5"
+        , "1.4"
+        , "1.3"
+        , "4.2"
+        , "-1.1"
+        , "1.1"
+        , "3.2"
+      ]
+      , "seqid": "FER1_MESCR"
+      , "start": "5"
+    }
+    , {
+        "graphType": "BAR_GRAPH"
+      , "label": "Bar Graph"
+      , "values": [
+          "2 1,."
+        , "2,*"
+        , "3,:"
+        , "4,."
+        , "5,*"
+        , "4,:"
+        , "3,."
+        , "2"
+        , "1"
+        , "1"
+        , "2"
+        , "3"
+        , "4"
+        , "5"
+        , "4"
+      ]
+      , "seqid": "FER1_MESCR"
+      , "start": "5"
+    }
+    , {
+        "graphType": "NO_GRAPH"
+      , "label": "Icons "
+      , "values": [
+          ""
+        , ""
+        , ""
+        , ""
+        , "E,Sheet1"
+        , "E"
+        , "E"
+        , ""
+        , ""
+        , ""
+        , "H,Sheet 2"
+        , "H"
+        , "H"
+        , "H"
+        , ""
+        , ""
+        , ""
+        , ""
+        , ""
+        , ""
+      ]
+      , "seqid": "FER1_MESCR"
+      , "start": "5"
+    }
+    , {
+        "graphType": "NO_GRAPH"
+      , "label": "Purple Letters"
+      , "values": [
+          "m"
+        , "y"
+        , "p"
+        , "r"
+        , "o"
+        , "t"
+        , "e"
+        , "i"
+        , "n"
+      ]
+      , "seqid": "FER1_MESCR"
+      , "start": "5"
+    }
+  ]
+  , "graph": {
+      "colors": {
+        "Bar Graph 2": "#0000FF"
+      , "Red Values": "#ff0000"
+      , "Green Values": "#008000"
+      , "Purple Letters": "#9734e4"
+    }
+    , "combine": {
+        "Green Values": "Red Values"
+    }
+    , "lines": {
+        "Red Values": {
+          "value": "2.6"
+        , "label": "threshold"
+        , "color": "#000000"
+      }
+    }
+  }
+  , "groups": {
+      "Group_A": {
+        "start": "30"
+      , "end": "50"
+      , "numeric": true
+      , "seqs": "*"
+      , "props": {
+          "description": "This is the description"
+        , "colour": "Helix Propensity"
+        , "pidThreshold": "0"
+        , "outlineColour": "red"
+        , "displayBoxes": "true"
+        , "displayText": "false"
+        , "colourText": "false"
+        , "textCol1": "black"
+        , "textCol2": "black"
+        , "textColThreshold": "0"
+      }
+    }
+    , "Group_B": {
+        "start": "1"
+      , "end": "351"
+      , "numeric": true
+      , "seqs": [
+          "2"
+        , 3
+        , 4
+      ]
+      , "props": {
+          "outlineColour": "red"
+      }
+    }
+    , "Group_C": {
+        "start": "12"
+      , "end": "14"
+      , "numeric": false
+      , "seqs": [
+          "seq1"
+        , "seq2"
+        , "seq3"
+      ]
+      , "props": {
+          "colour": "Clustal"
+      }
+    }
+  }
+}
