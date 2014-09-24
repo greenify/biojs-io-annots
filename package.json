@@ -1,7 +1,7 @@
 {
   "name": "biojs-io-annots",
   "description": "Parser for annotation files",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/greenify/biojs-io-annots",
   "author": {
     "name": "greenify",
