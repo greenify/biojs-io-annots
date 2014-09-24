@@ -1,7 +1,7 @@
 {
   "name": "biojs-io-annots",
   "description": "Parser for annotation files",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/greenify/biojs-io-annots",
   "author": {
     "name": "greenify",
@@ -50,6 +50,12 @@
     "uglify-js": "~2.4.15",
     "watchify": "^1.0.2"
   },
+  "shields": {
+	 "build": {
+		"img": "https://travis-ci.org/greenify/biojs-io-annots.svg?branch=master",
+		"href": "https://travis-ci.org/greenify/biojs-io-annots"
+	 }
+   },
   "keywords": [
     "biojs",
     "parser",
