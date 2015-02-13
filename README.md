@@ -1,17 +1,17 @@
-# biojs-io-annots
+# msa-annots
 
-[![Build Status](https://secure.travis-ci.org/greenify/biojs-io-annots.png?branch=master)](http://travis-ci.org/greenify/biojs-io-annots)
-[![NPM version](https://badge-me.herokuapp.com/api/npm/biojs-io-annots.png)](http://badges.enytc.com/for/npm/biojs-io-annots) 
+[![Build Status](https://secure.travis-ci.org/greenify/msa-annots.png?branch=master)](http://travis-ci.org/greenify/msa-annots)
+[![NPM version](https://badge-me.herokuapp.com/api/npm/msa-annots.png)](http://badges.enytc.com/for/npm/msa-annots) 
 
 > Parser for annotation files from Jalview
 
 [Official spec](http://www.jalview.org/builds/latest/help/html/features/annotationsFormat.html)
 
 ## Getting Started
-Install the module with: `npm install biojs-io-annots`
+Install the module with: `npm install msa-annots`
 
 ```javascript
-var annots= require('biojs-io-annots');
+var annots= require('msa-annots');
 annots.read(<url to annot file>); // return JSON representation
 ```
 
@@ -23,20 +23,20 @@ annots.read(<url to annot file>); // return JSON representation
 **Type**: `String`
 **Example**: (see `test/dummy.annot`)
 
-[Example result](https://github.com/greenify/biojs-io-annots/blob/master/test/dummy.json).
+[Example result](https://github.com/greenify/msa-annots/blob/master/test/dummy.json).
 
 #### .read(url)
 
 **Parameter**: `url`
 **Type**: `String`
-**Example**: `https://raw.githubusercontent.com/greenify/biojs-io-annots/master/test/dummy.annot`
+**Example**: `https://raw.githubusercontent.com/greenify/msa-annots/master/test/dummy.annot`
 
 ## Contributing
 
-Please submit all issues and pull requests to the [greenify/biojs-io-annots](http://github.com/greenify/biojs-io-annots) repository!
+Please submit all issues and pull requests to the [greenify/msa-annots](http://github.com/greenify/msa-annots) repository!
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/greenify/biojs-io-annots/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/greenify/msa-annots/issues).
 
 ## License 
 

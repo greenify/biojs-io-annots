@@ -1,32 +1,32 @@
 {
-  "name": "biojs-io-annots",
+  "name": "msa-annots",
   "description": "Parser for annotation files",
   "version": "0.0.4",
-  "homepage": "https://github.com/greenify/biojs-io-annots",
+  "homepage": "https://github.com/greenify/msa-annots",
   "author": {
     "name": "greenify",
     "email": "greeenify@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/greenify/biojs-io-annots.git"
+    "url": "git://github.com/greenify/msa-annots.git"
   },
   "bugs": {
-    "url": "https://github.com/greenify/biojs-io-annots/issues"
+    "url": "https://github.com/greenify/msa-annots/issues"
   },
   "licenses": [
     {
       "type": "Apache 2",
-      "url": "https://github.com/greenify/biojs-io-annots/blob/master/LICENSE"
+      "url": "https://github.com/greenify/msa-annots/blob/master/LICENSE"
     }
   ],
-  "main": "lib/biojs-io-annots",
+  "main": "lib/msa-annots",
   "scripts": {
     "test": "gulp test",
-    "build-browser": "mkdirp build; browserify browser.js -o build/biojs-io-annots.js",
+    "build-browser": "mkdirp build; browserify browser.js -o build/msa-annots.js",
     "build-browser-min": "gulp build-browser-gzip",
     "prepublish": "gulp",
-    "watch": "mkdirp build; watchify browser.js -o build/biojs-io-annots.js"
+    "watch": "mkdirp build; watchify browser.js -o build/msa-annots.js"
   },
   "dependencies": {
     "colornames": "0.0.2",
@@ -52,8 +52,8 @@
   },
   "shields": {
 	 "build": {
-		"img": "https://travis-ci.org/greenify/biojs-io-annots.svg?branch=master",
-		"href": "https://travis-ci.org/greenify/biojs-io-annots"
+		"img": "https://travis-ci.org/greenify/msa-annots.svg?branch=master",
+		"href": "https://travis-ci.org/greenify/msa-annots"
 	 }
    },
   "keywords": [

@@ -1,6 +1,6 @@
 /*
- * biojs-io-annots
- * https://github.com/greenify/biojs-io-annots
+ * msa-annots
+ * https://github.com/greenify/msa-annots
  *
  * Copyright (c) 2014 greenify
  * Licensed under the Apache 2 license.
@@ -25,7 +25,7 @@ var mkdirp = require('mkdirp');
 
 // browserify build config
 var buildDir = "build";
-var browserFile = "browser.js";
+var browserFile = "./";
 var packageConfig = require('./package.json');
 var outputFile = packageConfig.name;
 

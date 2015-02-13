@@ -1,1 +1,0 @@
-biojsioannots = require('./index');

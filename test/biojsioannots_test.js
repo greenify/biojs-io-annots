@@ -1,6 +1,6 @@
 /*
- * biojs-io-annots
- * https://github.com/greenify/biojs-io-annots
+ * msa-annots
+ * https://github.com/greenify/msa-annots
  *
  * Copyright (c) 2014 greenify
  * Licensed under the Apache 2 license.
@@ -11,7 +11,7 @@ var assert = chai.assert;
 chai.expect();
 chai.should();
 
-var io = require('../lib/biojsioannots.js');
+var io = require('..');
 var fs = require('fs');
 
 suite("Annot parser");
